@@ -1,0 +1,507 @@
+
+<!DOCTYPE html><html lang="ru"><head><meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta charset="utf-8"><script
+        src="http://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script><!--Bootstrap 3--><link href="css/aos.css" rel="stylesheet">
+    <script src="css/aos.js"></script>  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><link href='https://fonts.googleapis.com/css?family=Faster One' rel='stylesheet'><link href='https://fonts.googleapis.com/css?family=Federo' rel='stylesheet'><link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'><link href='https://fonts.googleapis.com/css?family=Diplomata SC' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Baloo Paaji' rel='stylesheet'><link href='https://fonts.googleapis.com/css?family=Average Sans' rel='stylesheet'><link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><!--Animate--><link href="css/animate.css" rel="stylesheet"><!--FONT-AWESONE --><link rel="stylesheet" href="font-awesome-4.7.0/less/variables.less"><link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"><!--CSS end LESS --><link rel="stylesheet" href="css/style.css"><style type="text/css">
+            .cont{
+               
+                background-image: url('img/mypic.jpg');
+                background-size: cover;
+                
+                
+            }
+          .container-skills {
+    margin: 20px auto 0 auto;
+  max-width: 400px;
+}
+
+.bar {
+  position: relative;
+    background-color: #d8d8d8;
+    height: 10px;
+    margin: 0 0 20px 0;
+}
+.bar-fill {
+  position: absolute;
+  height: 10px;
+}
+.bar-title {
+  position: relative;
+    font-size: 1em;
+    text-align: left;
+    margin: 0 0 5px 0;
+}
+.percent {
+  position: absolute;
+    right: 0;
+}
+
+/* Animations Below - Replace ease-out with infinite for infinite loop*/
+/*Edit here for html*/  
+.bar-fill-html {
+    width: 70%;
+  background-color: #e44d26;
+    animation: bar-fill-html 2s ease-out;
+    -moz-animation: bar-fill-html 2s ease-out;
+  -webkit-animation: bar-fill-html 2s ease-out;
+}
+@keyframes bar-fill-html {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+@-moz-keyframes bar-fill-html {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+@-webkit-keyframes bar-fill-html {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+/*Edit here for Javascript*/
+.bar-fill-javascript {
+    width: 50%;
+  background-color: #f8dc3d;
+  animation: bar-fill-javascript 2s ease-out;
+    -moz-animation: bar-fill-javascript 2s ease-out;
+  -webkit-animation: bar-fill-javascript 2s ease-out;
+}
+@keyframes bar-fill-javascript {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+@-moz-keyframes bar-fill-javascript {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+@-webkit-keyframes bar-fill-javascript {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+.bar-fill-php {
+    width: 65%;
+  background-color: #009999;
+  animation: bar-fill-php 2s ease-out;
+    -moz-animation: bar-fill-php 2s ease-out;
+  -webkit-animation: bar-fill-php 2s ease-out;
+}
+@keyframes bar-fill-php {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+@-moz-keyframes bar-fill-php {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+@-webkit-keyframes bar-fill-php {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+
+
+.bar-fill-sql {
+    width: 65%;
+  background-color: #99cc00;
+  animation: bar-fill-php 2s ease-out;
+    -moz-animation: bar-fill-php 2s ease-out;
+  -webkit-animation: bar-fill-php 2s ease-out;
+}
+@keyframes bar-fill-sql {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+@-moz-keyframes bar-fill-sql {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+@-webkit-keyframes bar-fill-sql {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+/*Edit here for Jquery*/
+.bar-fill-jquery{
+    width: 55%;
+  background-color: #131b28;
+  animation: bar-fill-jquery 2s ease-out;
+    -moz-animation: bar-fill-jquery 2s ease-out;
+  -webkit-animation: bar-fill-jquery 2s ease-out;
+}
+@keyframes bar-fill-jquery {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 55%;
+    }
+}
+@-moz-keyframes bar-fill-jquery {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 55%;
+    }
+}
+@-webkit-keyframes bar-fill-jquery {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 55%;
+    }
+}
+/*Edit here for Responsive*/
+.bar-fill-responsive{
+    width: 40%;
+  background-color: #429f46;
+  animation: bar-fill-responsive 2s ease-out;
+    -moz-animation: bar-fill-responsive 2s ease-out;
+  -webkit-animation: bar-fill-responsive 2s ease-out;
+}
+@keyframes bar-fill-responsive {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+@-moz-keyframes bar-fill-responsive {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+@-webkit-keyframes bar-fill-responsive {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+/*Edit here for Photoshop*/
+.bar-fill-photoshop{
+    width: 60%;
+  background-color: #0a73dc;
+  animation: bar-fill-photoshop 2s ease-out;
+    -moz-animation: bar-fill-photoshop 2s ease-out;
+  -webkit-animation: bar-fill-photoshop 2s ease-out;
+}
+@keyframes bar-fill-photoshop {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }s
+}
+@-moz-keyframes bar-fill-photoshop {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+@-webkit-keyframes bar-fill-photoshop {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+        </style>
+
+<style type="text/css">
+                *{
+                
+                -webkit-transition: all 300ms ease-in-out;
+                -o-transition: all 300ms ease-in-out;
+                transition: all 300ms ease-in-out;
+            }
+            
+h1{
+  position:absolute;
+  top:50%;
+  transform:translateY(-70%);
+}
+            h1:after{
+                content:"|";
+                -webkit-animation: blink 300ms ease-in-out infinite;
+                        animation: blink 300ms ease-in-out infinite;
+                color:white;
+                font-size:40px;
+
+            }
+            @-webkit-keyframes blink{
+                0%{
+                    opacity:0;
+                }
+                50%{
+                    opacity: 0.5;
+                }
+                100%{
+                    opacity:1;
+                }
+            }
+            @keyframes blink{
+                0%{
+                    opacity:0;
+                }
+                50%{
+                    opacity: 0.5;
+                }
+                100%{
+                    opacity:1;
+                }
+            }
+</style>
+
+
+        <!-- MEDIA--><link rel="stylesheet" href="css/media.css"><link rel="icon" href="img/fav32.ico"><title> Hey Adesh...</title></head><body><div class="header-left"> <div class="container cont"><div class="row main"><div class="col-md-12 text-center divImg"><div align="center" class="mytext" style="margin-top: 20%; margin-left: 25%;">
+            <h1 id="heading" style="font-family:  'Baloo Paaji';font-size: 30px; color: white; margin-top: -20%;"></h1></div><section class="section">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
+        <defs>
+            <filter id="filter-glitch-2">
+                <feTurbulence type="fractalNoise" baseFrequency="0.000001" numOctaves="1" result="warp"></feTurbulence>
+                <feOffset dx="-90" dy="-90" result="warpOffset"></feOffset>
+                <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warpOffset"></feDisplacementMap>
+            </filter>
+        </defs>
+    </svg>
+    <div data-aos="fade-left" style="font-family: 'Average Sans';"><a id='mylink' href="https://www.linkedin.com/in/adesh-shukla-a92b20159" >  <button id="component-10" class="button button--6" >CONNECT WITH ME <i class="fa fa-envelope fa-lg"></i></button></a></div>
+ </section></a></div><div class="icons" align="center"><a href="https://github.com/aadixiiita" target="_blank" ><img src="img/icons/icons8-github.svg" height="33" width="33" alt=""></a><a href="https://www.linkedin.com/in/adesh-shukla-a92b20159" target="_blank"><img src="img/icons/linkedin.svg" height="28" width="28" alt=""></a> </a><a href="https://twitter.com/AadiS04489190" target="_blank"><img src="img/icons/icons8-twitter.svg" height="27" width="27" alt=""></a><a href="https://www.facebook.com/adesh.shukla.790" target="_blank"><img class="face" src="img/icons/f.svg" height="27" width="27" alt=""></a> <a href="#"><img src="img/icons/icons8-whatsapp.svg" height="27" width="27" alt=""></a></div></div></div></div></div><!-- ABOUT --><div class="header-right" id="header-right"><div class="container cont-2"><div class="row row-2"><div class="col-md-3 col-sm-12 titleText"><span class="titleText text-cen" style="font-family: 'Faster One'; font-size: 18px;">About me</span></div><div class="col-md-9 div-text text-about-me"><p>I'm a positive and friendly person. Also, I love to set goals and achieve them. My important qualities: self-motivated, ability overcome difficulties and the ability to learn. These are some technical skills that help me along the way:</p><div class="container-skills">
+                    <div class="html">
+                    <p class="bar-title">
+                        HTML / HTML5 & CSS
+                        <span class="percent align-right">70%</span>
+                    </p>
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-html start"></div>
+                    </div>
+                    </div>
+                    <div class="javascript">
+                        <p class="bar-title">
+                            Javascript / NodeJS
+                            <span class="percent align-right">50%</span>
+                        </p>
+                        <div class="bar">
+                            <div class="bar-fill bar-fill-javascript start"></div>
+                        </div>
+                    </div>
+                    <div class="php">
+                        <p class="bar-title">
+                            PHP
+                            <span class="percent align-right">65%</span>
+                        </p>
+                        <div class="bar">
+                            <div class="bar-fill bar-fill-php start"></div>
+                        </div>
+                    </div>
+                    <div class="sql">
+                        <p class="bar-title">
+                            SQL
+                            <span class="percent align-right">65%</span>
+                        </p>
+                        <div class="bar">
+                            <div class="bar-fill bar-fill-sql start"></div>
+                        </div>
+                    </div>
+                    <div class="jquery">
+                        <p class="bar-title">
+                            Python
+                            <span class="percent align-right">55%</span>
+                        </p>
+                        <div class="bar">
+                            <div class="bar-fill bar-fill-jquery start"></div>
+                        </div>
+                    </div>
+                    <div class="responsive-design">
+                        <p class="bar-title">
+                            Machine Learning
+                            <span class="percent align-right">40%</span>
+                        </p>
+                        <div class="bar">
+                            <div class="bar-fill bar-fill-responsive start"></div>
+                        </div>
+                    </div>
+                    <div class="photoshop">
+                        <p class="bar-title">
+                            C/C++
+                            <span class="percent align-right">60%</span>
+                        </p>
+                        <div class="bar">
+                        <div class="bar-fill bar-fill-photoshop start"></div>
+                        </div>
+                    </div>
+                </div></div></div></div><div class="container cont-2"><div class="row row-2"><div class="col-md-3 titleText" ><span class="titleText" style="font-family: 'Faster One'; font-size: 18px;">Education</span></div><div class="col-md-9 div-text div-small"><span class="bachelor-text" style="font-family: 'Federo';margin-right: 15px; margin-left: 20px;"><a href="https://www.iiita.ac.in" target="_blank">Bachelor of Technology</a></span> <span class="yers" style="font-family: 'Federo';">2017-Present</span><p class="software-text" style="margin-left: 20px;">Electronics and Communication Engineering, Indian Institute of Information Technology Allahabad <br><br> CGPA : 8.53/10</p></div></div></div><div class="container cont-2"><div class="row row-2"><div class="col-md-3 titleText"><span class="titleText" style="font-family: 'Faster One'; font-size: 18px;">Work Experience</span></div><div class="col-md-9 div-text div-small"><span class="bachelor-text" style="font-family: 'Federo'; margin-left: 20px;"><a href="https://geekhaven.iiita.ac.in" target="_blank">Member - GeekHaven IIITA</a></span> <span class="yers" style="font-family: 'Federo';">2018-Present</span><p class="software-text" style="margin-left: 20px;">Working as a member of web development wing at technical society GeekHaven of IIIT Allahabad .Maintaining web related activities around the campus.</p> <span class="bachelor-text" style="font-family: 'Federo';"><a href="https://iiic.iiita.ac.in" target="_blank" style="margin-left: 20px;">Executive - IIITA Info Communication Incubation Centre </a> </span> <span class="yers" style="font-family: 'Federo';">2018-Present</span><p class="software-text" style="margin-left: 20px;">Working as a executive of events and management team at Incubation Centre of IIIT Allahabad .Maintaining start-ups/business related activities around the campus.
+</p></div></div>
+<div class="container cont-2"><div class="row row-2"><div class="col-md-3 titleText"><span class="titleText" style="font-family: 'Faster One'; font-size: 18px; margin-left: -14px;">Projects<br><br>Deep Learning</span></div><div class="col-md-9 div-text div-small"><span class="bachelor-text pro" style="font-family: 'Federo'; margin-left: 14px;"><a href="https://github.com/aadixiiita/Convolutional-Neural-Network-for-Gun-Recognition" target="_blank">Convolutional Neural Network For Gun Recognition</a></span> <span class="yers" style="font-family: 'Federo';">June 2018</span><p class="software-text prot" style="margin-left: 14px;">It contains a basic CNN model Gun Recognizer using keras library.
+I implemented a simple CNN network that achieves over 90% accuracy.</p></div>
+</div>
+</div></div>
+
+<script async>$(document).ready(function () {
+   $('.header-right').mouseover(function () {
+$('.img').addClass('img-3');
+});
+$('#header-right').mouseout(function () {
+$('.img').removeClass('img-3');
+});
+});</script>
+<script type="text/javascript">
+    AOS.init({
+  duration: 2500,
+})
+
+</script>
+  <script type="text/javascript">
+  
+     var h1 = $(window).height() ;
+ 
+ 
+   if(h1 < 576){
+   
+    $('.myimage').attr("height","250");
+       
+    $('.myimage').attr("width","200");
+
+    $('.bachelor-text').css('margin-top' , '-10px');
+
+    $('.mytext').css('margin-top' , '330px');
+
+     $('.mytext').css('margin-left' , '18px');
+
+     $('.pro').css('margin-left' , '5px');
+
+
+     $('.prot').css('margin-left' , '5px');
+   }
+   
+</script>
+<script type="text/javascript">
+                    var heading = document.querySelector("h1");
+                var data = ["Hi! I'm Adesh Shukla 😄","I am a web developer!","Also a Part Time Programmer","Knows Python 🐍","I ❤️ Open Source!","Self Motivated ❤️","I ❤️ English Music"];
+                var j = 0;
+                var i = 0;
+    
+
+            var k;
+
+            function typing(){
+                if(heading.innerHTML.length === data[j].length){
+                    k = 0;
+                    setTimeout(del, 1200);
+                }
+                if(i<data[j].length){
+                    heading.innerHTML += data[j].charAt(i);
+                    i++;
+                    setTimeout(typing, 50);
+                }
+                else{
+                    j++;
+                    i = 0;
+                    k = 0;
+                    setTimeout(typing, 3000);
+                }
+                if(j === data.length){
+                    j = 0;
+                }
+            }
+                
+            // var check = document.getElementById("check");
+            // var k = 0;
+            function del(){
+                if(heading.innerHTML.length == 0){
+                    clearTimeout(time);
+                }
+                else{
+                heading.innerHTML = heading.innerHTML.slice(0, heading.innerHTML.length - k);
+                k++;
+                var time = setTimeout(del, 100);
+                }
+            }
+
+            typing();
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+<script src="js/main.js"> </script>
+</body></html>
